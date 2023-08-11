@@ -1,0 +1,226 @@
+nav ul li a:hover{
+	text-decoration: none;
+}
+.hero{
+	background: url('../img/hero.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	display: flex !important;
+	justify-content: start;
+	align-items: center;
+	text-align: left;
+}
+.hero-2{
+	background: url('../img/hero-2.jpg');
+	background-position: bottom;
+	background-size: cover;
+	text-align: center;
+}
+.hero-3{
+	background: url('../img/hero-3.jpg');
+	background-position: bottom;
+	background-size: cover;
+	text-align: right;
+}
+.service-section .less{
+	display: none;
+}
+.service-section .more{
+	display: inline;
+}
+.back-to-top{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	width: 50px;
+	height: 50px;
+	background-color: #999;
+	border-radius: 50%;
+	position: fixed;
+	z-index: 1111;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.6s;
+}
+.show{
+	visibility: visible;
+	opacity: 1;
+}
+.back-to-top a{
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.back-to-top a:hover{
+	color: #fff;
+}
+.our-team .card{
+	border: none;
+}
+.our-team .card a{
+	text-decoration: none;
+	color: #000;
+	transition: 0.4s;
+}
+.our-team .card p{
+	color: #6c757d;
+	transition: 0.2s;
+}
+.our-team .card .top-img{
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	background-color: #098;
+	border-bottom-left-radius: 25px;
+	transition: 0.6s;
+}
+.our-team .card .top-img img{
+	width: 120px;
+	height: auto;
+	border-radius: 50%;
+	transition: 0.4s;
+}
+.our-team .card .bottom-text{
+	padding: 30px;
+	text-align: center;
+	background-color: #fff;
+	transition: 0.9s;
+	border-top-right-radius: 25px;
+}
+.our-team .card:hover .top-img{
+	background-color: #fff;
+}
+.our-team .card:hover .top-img img{
+	border: 3px solid #fff;
+	outline: 3px solid #098;
+}
+.our-team .card:hover .bottom-text{
+	background-color: #098;
+}
+.our-team .card:hover a{
+	color: #fff !important;
+}
+.our-team .card:hover h3{
+	color: #fff !important;
+}
+.our-team .card:hover p{
+	color: #fff !important;
+}
+.our-team .owl-dots{
+	margin-top: 25px !important;
+}
+.our-team .owl-carousel{
+	position: relative;
+}
+.our-team .owl-carousel .owl-prev{
+	position: absolute;
+	top: 50%;
+	left: -45px;
+	transform: translateY(-50%);
+	font-size: 70px !important;
+	width: 50px;
+	padding-top: 0 !important;
+}
+.our-team .owl-carousel .owl-next{
+	position: absolute;
+	top: 50%;
+	right: -50px;
+	transform: translateY(-50%);
+	font-size: 70px !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+  color: #000 !important;
+  text-decoration: none;
+}
+footer .footer-icons{
+	display: flex;
+}
+footer .footer-icons a{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+footer .nav-link{
+	padding: .5rem 0;
+	color: #fff;
+}
+footer .contact i{
+	color: #31D2F2;
+	margin-right: 6px;
+}
+footer .contact ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 15px !important;
+}
+footer .contact ul li{
+	margin-top: 12px;
+	list-style-position: outside !important;
+}
+.our-project .links a{
+	text-decoration: none;
+	color: #000;
+}
+.video{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/blog-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.video a{
+	color: #fff;
+}
+.Testimonial .card{
+	border: none;
+}
+.Testimonial img{
+	width: 100px !important;
+	border-radius: 50%;
+}
+.Testimonial p{
+	font-style: italic;
+	font-family: cursive;
+}
+
+.Testimonial .owl-carousel{
+	position: relative;
+}
+.Testimonial .owl-carousel .owl-prev{
+	position: absolute;
+	top: 50%;
+	left: -45px;
+	transform: translateY(-50%);
+	font-size: 70px !important;
+	width: 50px;
+	padding-top: 0 !important;
+}
+.Testimonial .owl-carousel .owl-next{
+	position: absolute;
+	top: 50%;
+	right: -50px;
+	transform: translateY(-50%);
+	font-size: 70px !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+  color: #000 !important;
+  text-decoration: none;
+}
